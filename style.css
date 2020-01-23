@@ -1,8 +1,17 @@
 /* Add Font and Background*/
 body{
     font-family: "Avenir Next" !important;
-    background-image: url("./images/background.png");
     color: white;
+    background-image: url("./images/background.png");
+    margin:0;
+    padding: 0;
+
+}
+
+/* Create full slides for page */
+
+.slide{
+    height: 90vh;
 }
 
 /* Navbar styling */
@@ -11,11 +20,29 @@ body{
     font-size: 25px;
     align-items: left;
     justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+ 
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
 
 
+#navbar a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Main text styling */
+
+#title-page{
+    height: 100vh;
+}
+
 #title-page h1 {
     position: absolute;
     left: 50%;
@@ -36,14 +63,42 @@ body{
     align-items: center;
 }
 
+#about{
+    width: 100%;
+    background-image: none;
+    background-color: beige;
+    color: black;
+}
+
+#about h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#about-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about-image img{
+    height: 500px;
+    border-radius: 25px;
+}
+
+#about-text{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%;
+}
+
 /* Footer Styling */
 #footer{
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
-    width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin: 1em;
     font-size: 11px;
 }
