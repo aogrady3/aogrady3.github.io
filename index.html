@@ -29,7 +29,7 @@
             </div>
         </section>
 
-      <section id="about" class='slide'>
+      <section id="about" class='slide' class='container'>
           <h1>About Me</h1>
           <div id='about-content'>
           <div id='about-image'>
@@ -64,7 +64,8 @@
             <p class='background'>
                 In Good Company is a social networking application where Users can create their own personalized social network! In Good Company’s front-end consists primarily of React, Apollo Client, Material UI, and CSS. Modular React components allowed for easy design implementation throughout. Personal CSS contributed to most of the UI/UX of the site.
                 In Good Company’s back-end consists primarily of Node.js, Prisma (ORM, Database, Server), and GraphQl. The backend of our application was handled by Prisma, which provided us with a database, ORM, and server. GraphQl replaced the typical RESTful architecture, by providing a single endpoint to mutate and query data from our database. Heroku was used for deployment of our app.
-            </p>
+              </p>
+              <a href="https://github.com/Hucklyberry-Hound/ingoodcompany">View Source Code on Github!</a>
         </div>
         <div class = 'project-dropdown 2'>
             <i class="fa fa-close" onclick='closeProject()'></i>
@@ -72,29 +73,53 @@
                 LeakSpeak was awarded 1st place overall at Microsoft's Gotham DLT Hackaton and 1st place for Brooklyn Law Incubator & Policy Clinic challenge. 
                 The application aims to to advance environmental, economic, or social justice through the use of blockchain technology to provide a streamline process for global issues to be easily communicated. LeakSpeak allows journalists to anonymously reward their sources for their information and protects information from censorship by hosting the data on a non-custodial, decentralized network. In the era of fake news, leakSpeak is a way to get on the ground information and to prevent the rewriting of history. We hope leakSpeak will inspire a new wave of citizen journalism and awareness.
             </p>
+            <a href="https://github.com/team-fully-stacked/leakSpeak">View Source Code on Github!</a>
+
           </div>
           <div class = 'project-dropdown 3'>
               <i class="fa fa-close" onclick='closeProject()'></i>
               <p class='background'>
-                  In Good Company is a social networking application where Users can create their own personalized social network! In Good Company’s front-end consists primarily of React, Apollo Client, Material UI, and CSS. Modular React components allowed for easy design implementation throughout. Personal CSS contributed to most of the UI/UX of the site.
-                  In Good Company’s back-end consists primarily of Node.js, Prisma (ORM, Database, Server), and GraphQl. The backend of our application was handled by Prisma, which provided us with a database, ORM, and server. GraphQl replaced the typical RESTful architecture, by providing a single endpoint to mutate and query data from our database. Heroku was used for deployment of our app.
-              </p>
+                  Winning Solution for TechToProtect NYC by NIST & IBM. 
+                  The Tech to Protect Challenge is designed to inspire participants to connect, collaborate, and create technologies of the future for public safety.
+                  NAVI provides an integrated, all in one platform for Emergency Responders to locate each other and detect when they are in danger. 
+                  NAVI provides a website/dashboard, mobile application, IoT device to monitor temperature elevations. 
+                </p>
+              <a href="https://github.com/techforthepeople">View Source Code on Github!</a>
           </div>
         <div class=projects-all>
-          <div class='project'>
+          <div class='project' onclick='openProject(4)'>
               <h3>Rainforest</h3>
           </div>
-          <div class='project'>
+          <div class='project' onclick='openProject(5)'>
               <h3>Easy Spot</h3>
           </div>
         </div>
+        <div class = 'project-dropdown 4'>
+            <i class="fa fa-close" onclick='closeProject()'></i>
+            <p class='background'>
+                Rainforest is a mock e-commerce Single Page web application that sells books to inc-comming consumers! Rainforest’s front-end consist primarily of React, Redux, and CSS. Modular React and Redux components allowed for easy design implementation throughout. Personal CSS contributed to most of the UI/UX of the site.
+                Rainforest’s back-end consist primarily of Express.js, Sequelize, and PostgreSQL for api-routing, model querying, and database, respectively. Heroku was used for deployment of app.                
+              </p>
+            <a href="https://github.com/One-Team-One-Dream-OTOD/Grace-Shopper">View Source Code on Github!</a>
+        </div>
+        <div class = 'project-dropdown 5'>
+            <i class="fa fa-close" onclick='closeProject()'></i>
+            <p class='background'>
+                React Native Mobile Application, which allows users to rent their personal driveways! Growing up in the Bronx I have always had trouble parking or finding available spots. Whether it be looking for parking by the 6 train or visiting family I always noticed a lack of street parking but tons of empty driveways. After being confronted with this problem on countless occasions I created the mobile application Easy Spot, a mobile application that allows users to rent their personal driveways!
+              </p>
+            <a href="https://github.com/aogrady3/Easy-Spot">View Source Code on Github!</a>
+      </section>
+
+      <section id='experience' class='slide' class='container'>
+        <h1>Experience</h1>
+
       </section>
 
         <!-- Footer for Landing Page -->
-        <footer id="footer">
+        <section id="footer">
           <div>
                 <i class="fa fa-copyright"></i> 2020 Built by Andrew O'Grady
           </div>
-        </footer>
+        </section>
   </body>
 </html>

@@ -87,6 +87,7 @@ section{
     color: black;
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
 #about h1{
@@ -118,24 +119,26 @@ section{
 /* Projects Section */
 
 #projects{
-    padding: 0;
+    padding-bottom: 100px;
     margin: 0;
     width: 100%;
     background-image: url("./images/background-2.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: white;
-    height: 110vh;
+    height: 100%;
 }
 
 #projects h1{
     padding-top: 35px;
+    padding-bottom: 60px;
     text-align: center;
     font-size: 50px;
 }
 
 .projects-all{
-    padding: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -161,7 +164,18 @@ section{
 .project-dropdown p{
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.project-dropdown a {
+    padding-bottom: 30px;
+    padding-left: 50px;
+    color: gray;
+}
+
+.project-dropdown a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 .project-dropdown i{
@@ -181,6 +195,25 @@ section{
     height: 0;
     overflow: hidden;
 }
+
+/* Experience section */
+
+#experience{
+    width: 100%;
+    background-image: none;
+    background-color: beige;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#experience h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
 
 /* Footer Styling */
 #footer{
@@ -231,7 +264,7 @@ section{
 
     #footer{
         margin-top: 350px;
-        font-size: 10px;
+        font-size: 25px;
         position: relative;
         bottom: 0;
     }
