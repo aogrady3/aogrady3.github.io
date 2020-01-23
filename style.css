@@ -25,7 +25,7 @@ section{
 /* Create full slides for page */
 
 .slide{
-    height: 90vh;
+    height: 100%;
     padding: 0;
     margin: 0;
 }
@@ -119,7 +119,7 @@ section{
 /* Projects Section */
 
 #projects{
-    padding-bottom: 100px;
+    padding-bottom: 20vh;
     margin: 0;
     width: 100%;
     background-image: url("./images/background-2.jpg");
@@ -203,16 +203,59 @@ section{
     background-image: none;
     background-color: beige;
     color: black;
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
 }
 
-#experience h1{
-    padding-top: 10px;
+#experience a{
     text-align: center;
-    font-size: 50px;
+    text-decoration: none;
+    color: black; 
+    cursor: pointer;
 }
 
+#experience a:hover{
+    text-decoration: underline;
+    color:gray;
+}
+
+#both{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#both h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+#all-experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience{
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.experience img{
+    height: 100px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#all-education{
+}
 
 
 /* Footer Styling */
@@ -223,7 +266,7 @@ section{
     display: flex;
     justify-content: center;
     margin: 1em;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 
