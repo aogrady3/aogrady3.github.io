@@ -205,7 +205,7 @@ section{
 #experience{
     width: 100%;
     background-image: none;
-    background-color: beige;
+    background-color: #E6EBE0;
     color: black;
     padding-left: 10px;
     padding-right: 10px;
@@ -258,8 +258,6 @@ section{
     border-radius: 15px;
 }
 
-#all-education{
-}
 
 
 /* Footer Styling */
