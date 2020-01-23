@@ -1,17 +1,33 @@
-/* Add Font and Background*/
+/* Normal Formatting */
+* { 
+    margin: 0;
+    padding: 0; 
+}
+
+
 body{
     font-family: "Avenir Next" !important;
     color: white;
     background-image: url("./images/background.png");
+    background-attachment: fixed;
+    background-size: cover;
     margin:0;
     padding: 0;
 
 }
 
+section{ 
+    margin: 0;
+    padding: 0;
+}
+
+
 /* Create full slides for page */
 
 .slide{
     height: 90vh;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navbar styling */
@@ -63,11 +79,14 @@ body{
     align-items: center;
 }
 
+/* About section */
 #about{
     width: 100%;
     background-image: none;
     background-color: beige;
     color: black;
+    padding: 0;
+    margin: 0;
 }
 
 #about h1{
@@ -91,6 +110,29 @@ body{
     margin-right: 100px;
     width: 50%;
 }
+
+#about-text p {
+    padding: 1em;
+}
+
+/* Projects Section */
+
+#projects{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url("./images/background-2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#projects h1{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 50px;
+}
+
 
 /* Footer Styling */
 #footer{
