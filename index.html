@@ -47,16 +47,39 @@
       <section id='projects' class='slide'>
         <h1>Projects</h1>
         <div class=projects-all>
-          <div class='project'>
+          <div class='project' onclick='openProject(1)'>
             <h3>In Good Company</h3>
           </div>
-        <div class='project'>
+        <div class='project'  onclick='openProject(2)'>
             <h3>LeakSpeaks</h3>
+            <h5>Hackathon Winner</h5>
           </div>
-          <div class='project'>
+          <div class='project'  onclick='openProject(3)'>
             <h3>NAVI</h3>
+            <h5>Hacakthon Winner</h5>
           </div>
         </div>
+        <div class = 'project-dropdown 1'>
+            <i class="fa fa-close" onclick='closeProject()'></i>
+            <p class='background'>
+                In Good Company is a social networking application where Users can create their own personalized social network! In Good Company’s front-end consists primarily of React, Apollo Client, Material UI, and CSS. Modular React components allowed for easy design implementation throughout. Personal CSS contributed to most of the UI/UX of the site.
+                In Good Company’s back-end consists primarily of Node.js, Prisma (ORM, Database, Server), and GraphQl. The backend of our application was handled by Prisma, which provided us with a database, ORM, and server. GraphQl replaced the typical RESTful architecture, by providing a single endpoint to mutate and query data from our database. Heroku was used for deployment of our app.
+            </p>
+        </div>
+        <div class = 'project-dropdown 2'>
+            <i class="fa fa-close" onclick='closeProject()'></i>
+            <p class='background'>
+                LeakSpeak was awarded 1st place overall at Microsoft's Gotham DLT Hackaton and 1st place for Brooklyn Law Incubator & Policy Clinic challenge. 
+                The application aims to to advance environmental, economic, or social justice through the use of blockchain technology to provide a streamline process for global issues to be easily communicated. LeakSpeak allows journalists to anonymously reward their sources for their information and protects information from censorship by hosting the data on a non-custodial, decentralized network. In the era of fake news, leakSpeak is a way to get on the ground information and to prevent the rewriting of history. We hope leakSpeak will inspire a new wave of citizen journalism and awareness.
+            </p>
+          </div>
+          <div class = 'project-dropdown 3'>
+              <i class="fa fa-close" onclick='closeProject()'></i>
+              <p class='background'>
+                  In Good Company is a social networking application where Users can create their own personalized social network! In Good Company’s front-end consists primarily of React, Apollo Client, Material UI, and CSS. Modular React components allowed for easy design implementation throughout. Personal CSS contributed to most of the UI/UX of the site.
+                  In Good Company’s back-end consists primarily of Node.js, Prisma (ORM, Database, Server), and GraphQl. The backend of our application was handled by Prisma, which provided us with a database, ORM, and server. GraphQl replaced the typical RESTful architecture, by providing a single endpoint to mutate and query data from our database. Heroku was used for deployment of our app.
+              </p>
+          </div>
         <div class=projects-all>
           <div class='project'>
               <h3>Rainforest</h3>
