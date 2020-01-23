@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1.0'>
+    <title>Thesis Hero Page</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+      <!-- Main Page Nav bar contains logo and menu-burger -->
+      <nav id = 'navbar'>
+          <div id='logo'>
+              <h3>Stamp</h3>
+          </div>
+          <div id='menu-burger' >
+                <i class="fa fa-bars" aria-hidden="true" onclick="Open()"></i>
+                <div id ='side-navbar'>
+                  <div id="side-navbar-close" onclick="Close()">
+                    <i class ="fa fa-times-circle" ></i>
+                  </div>
+                  <a>About</a>
+                  <a>Integrations</a>
+                  <a>Pricing</a>
+                  <a>Contacts</a>
+                </div>
+            </div>
+       </nav>
+       
+        <!-- Landing Page includes main text and Login Form -->
+        <section id="carousel">
+              <div id="carousel-text">
+                  <h1>Simple Way to Organize Your Inspirations</h1>
+                  <h2>I think what motivates people is not great hate, but great love for other people</h2>
+              </div>
+              <form id="sign-up-form">
+                  <h1>SIGN UP FOR FREE</h1>
+                  <div id='all-form-items'>
+                  <div class='form-item'>
+                    <label for="name"></label>
+                    <input type="text" placeholder="Name" name="name" required>
+                  </div>
+
+                  <div class='form-item'>
+                    <label for="email"></label>
+                    <input type="text" placeholder="Email" name="email" required>
+                  </div>
+
+                  <div class='form-item'>
+                    <label for="psw"></label> 
+                    <input type="password" placeholder= "Password" name="psw" required> </i>
+                  </div>
+                </div>
+                  <button type="submit" id="sign-up-bttn">Sign Up <i class="fa fa-angle-right"></i></button>
+                  <div id = 'terms-of-service'>
+                    <p>By clicking 'Sign Up' I agree to our</p>
+                    <strong><a>Terms of Service</a></strong>
+                </div>
+              </form>
+        </section>
+
+        <!-- Footer for Landing Page -->
+        <footer id="footer">
+            <div id='copyright'>
+                <i class="fa fa-copyright"></i>2016 Stamp. All Rights Reserved
+            </div>
+            <div id='all-footer-items'>
+            <div class="footer-item">
+                <strong><a href="#">CONTACT</a></strong>
+            </div>
+            <div class="footer-item">
+                <strong><a href="#">HELP</a></strong>
+            </div>
+            <div class="footer-item">
+                <strong><a href="#">TERMS OF USE</a></strong>
+            </div>
+            <div class="footer-item">
+                <strong><a href="#">PRIVACY POLICY</a></strong>
+            </div>
+            </div>
+        </div>
+        </footer>
+  </body>
+</html>
