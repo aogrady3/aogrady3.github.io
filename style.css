@@ -204,12 +204,11 @@ section{
 /* Experience section */
 
 #experience{
+    margin: 0;
     width: 100%;
     background-image: none;
     background-color: #E6EBE0;
     color: black;
-    padding-left: 10px;
-    padding-right: 10px;
     margin: 0;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -244,6 +243,7 @@ section{
 }
 
 .experience{
+    padding: 0;
     text-align: center;
     border: solid;
     border-width: 1px;
@@ -302,12 +302,11 @@ section{
 }
 
 #contact{
+    margin: 0;
     width: 100%;
     background-image: none;
     background-color: #4F345A;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
