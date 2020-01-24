@@ -361,7 +361,7 @@ section{
 
 
 /* Responsive-Design */
-@media (max-width: 800px) {  
+@media (max-width: 900px) {  
 
     #navbar{
         display: none;
